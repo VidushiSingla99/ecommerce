@@ -1,38 +1,45 @@
-.App {
+.image-size{
+  height: 30px;
+}
+
+.nav-top{
+  background-color: rgb(100, 149, 237,0.7);
+  font-family:'Lucida Console", "Courier New", monospace';
+  font-weight: 900;
+}
+
+.header{
   text-align: center;
+  font-size: 30px;
+  font-family:'Lucida Console", "Courier New", monospace';
+  font-weight: 900;
+  color: cornflowerblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.price-header{
+  font-weight: 900;
+  color: cornflowerblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shirt-selected{
+height: 50%;
+width: 50%;
+}
+.cart{
+  background-color: rgb(100, 149, 237,0.3);
+height: 100vh;
+  font-family:'Lucida Console", "Courier New", monospace';
+}
+.categories{
+  font-family:'Lucida Console", "Courier New", monospace';
+}
+.p-img{
+height: 80%;
+width: 80%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.p-name{
+  font-family:'Lucida Console", "Courier New", monospace';
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
